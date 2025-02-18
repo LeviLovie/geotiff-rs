@@ -8,4 +8,5 @@ mod tiff_file;
 mod value;
 
 pub use error::TiffParserError;
+pub use ifd::Ifd;
 pub use tiff_file::TiffFile;
