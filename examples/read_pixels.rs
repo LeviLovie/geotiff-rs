@@ -1,3 +1,4 @@
+// A simple example that reads the pixel values from a GeoTIFF file.
 fn main() {
     let geotiff = geotiff_rs::GeoTiff::from_file("example.tif").unwrap();
     let (width, height) = geotiff.get_size();
